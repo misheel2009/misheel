@@ -1,0 +1,242 @@
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9e5e2;
+    color: #333;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .navbar {
+    background-color: #9c7663 !important;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+  }
+
+  .navbar-brand {
+    color: #fff;
+    font-size: 1.8rem;
+  }
+
+  .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  .jumbotron {
+    background: url('./images/caffe.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 150px 0;
+    text-align: center;
+  }
+  .jumbotron h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .jumbotron p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+  }
+
+  #menu {
+    padding: 50px 0;
+    background-color: #f7f7f7;
+  }
+
+  .menu-item {
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .menu-item img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+  }
+
+  .menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .menu-item .card-body {
+    padding: 20px;
+  }
+
+  .menu-item h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .menu-item p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #666;
+  }
+
+  .menu-item a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #865a44;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .menu-item a.btn:hover {
+    background-color: #74270b;
+  }
+  #promotions {
+    background-color: #d0b9ad;
+    color: #865a44;
+    padding: 50px 0;
+  }
+
+  .promotion-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .promotion-card h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .promotion-card p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  .promotion-card a.btn {
+    background-color: #865a44;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .promotion-card a.btn:hover {
+    background-color: #74270b;
+  }
+
+  .promotion-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  }
+  .header-box {
+    background-color: #9c7663;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .header-box h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .header-box p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+  }
+
+  #about {
+    padding: 100px 0;
+  }
+
+  .section-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #83553d;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  #about .container {
+    max-width: 1200px;
+  }
+
+  #about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  #about .col-md-6 {
+    display: flex;
+    align-items: center;
+  }
+
+  #about img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  @media (max-width: 768px) {
+    #about .col-md-6 {
+      flex-direction: column;
+    }
+
+    #about img {
+      margin-top: 30px;
+    }
+  }
+
+  .contact-info {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .contact-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  .footer {
+    background-color: #edeceb;
+    color: #705a4a;
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .footer p {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  .footer p a {
+    color: #ffc107;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer p a:hover {
+    color: #ff9800;
+  }
+  
