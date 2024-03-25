@@ -25,7 +25,7 @@
   }
 
   .jumbotron {
-    background: url('./images/caffe.jpg') no-repeat center center;
+    background: url('./caffe.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
     padding: 150px 0;
